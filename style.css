@@ -1,5 +1,6 @@
 body{
   height: 250vh;
+  margin:0;
   padding: 0;
   font-family: sans-serif;
   overflow-x:hidden;
@@ -13,7 +14,9 @@ body{
   margin-left:10%;
   margin-right:10%;
 }
-
+.nav a:hover {
+    color: #0a32bf;
+}
 .left, .middle, .right {
   flex: 1;
   height: 40px;
@@ -35,7 +38,7 @@ body{
   flex-direction:row;
 }
 .fas{
-  color:#7959f8;
+  color:#0a32bf;
 }
 #search{
   width:100%;
@@ -63,13 +66,12 @@ body{
 #rightText{
   text-decoration:none;
   font-size:18px;
-  width:85%;
-  color: #7959f8;
+  width:80%;
+  color: #0a32bf;
 }
 #summary{
-  
-  width:90%;
-  margin-right:10%;
+  width:50%;
+  margin-right:15%;
 }
 #section2{
   display: flex;
@@ -87,7 +89,7 @@ h1{
   font-size:30px;
 }
 .blueSect{
-  background-color: #7959f8;
+  background-color: #0a32bf;
   color: white;
   height:100%;
 }
@@ -129,12 +131,12 @@ h1{
   width:30%;
   padding-bottom:5%;
 }
-button{
+.button{
   font-size:20px;
   padding-top:5px;
   padding-bottom:5px;
   width:100%;
-  border: 2px solid #9459f8;
+  border: 2px solid #0a32bf;
   border-radius:0;
   background-color:inherit;
 }
@@ -188,17 +190,55 @@ text2{
   width:30%;
 }
 #form{
-  padding-top:2%;
-  padding-bottom:0;
-  width:50%;
+  padding:10% 5%;
+  width:80%;
+}
+.top{
+    padding-top:4%;
 }
 .usrinput{
   width:100%;
-  height:30px;
-  margin-left:15px;
+  height:40px;
   border-style:none;
-  border-bottom: dotted;
 }
-.usrinput .msg{
+.msg{
   height:60px;
+  border-bottom: dashed;
+}
+#submit{
+  width:40%;
+  margin-top:5%;
+  background-color:#0a32bf;
+  color: white;
+}
+.border{
+  height:30%;
+  width:45%;
+  background-color:white;
+  margin-left:5%;
+}
+#section6{
+  width:100%;
+  margin:0;
+  padding-top:5%;
+  padding-bottom: 5%;
+  background-color:#282828;
+  color:white;
+}
+.bottom{
+  display:flex;
+}
+#credit{
+  margin-top:1%;
+  margin-left:11%;
+  width:60%
+}
+#socMedia{
+  width:10%;
+  padding-left:15%;
+  padding-top:1%;
+}
+.bottomNav{
+  border-color:white;
+  border-width:1px;
 }
