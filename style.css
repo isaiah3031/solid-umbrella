@@ -111,7 +111,7 @@ h1{
   background-color: #F3F1FF;
   margin:0;
   padding-top: 10%;
-  padding-bottom: 30%;
+  padding-bottom: 15%;
 }
 .content3{
   display: flex;
@@ -135,7 +135,6 @@ button{
   padding-bottom:5px;
   width:100%;
   border: 2px solid #9459f8;
-  color:#9459f8;
   border-radius:0;
   background-color:inherit;
 }
@@ -154,11 +153,52 @@ text2{
 #section4{
   margin-left:10%;
   margin-right:10%;
+  padding-top:10%;
+  padding-bottom:10%;
   display:flex;
   flex-wrap:wrap
 }
 .partners{
-  justify-content:flex-end;
+  
   width:20%;
   height:10%;
+}
+.content4{
+  height:20%;
+  display:flex;
+  justify-content:space-between;
+}
+#section5{
+  width:100%;
+
+
+  margin:0;
+  padding-top:10%;
+  padding-bottom:10%;
+  background-color:#F3F1FF;
+}
+#content5{
+  margin-left:10%;
+  margin-right:10%;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+}
+#prompt{
+  width:30%;
+}
+#form{
+  padding-top:2%;
+  padding-bottom:0;
+  width:50%;
+}
+.usrinput{
+  width:100%;
+  height:30px;
+  margin-left:15px;
+  border-style:none;
+  border-bottom: dotted;
+}
+.usrinput .msg{
+  height:60px;
 }
